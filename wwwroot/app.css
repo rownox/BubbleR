@@ -1,0 +1,29 @@
+body {
+   font-family: sans-serif;
+   margin: 20px;
+}
+
+#pdf-container {
+   position: relative;
+   display: inline-block;
+   border: 1px solid #ccc;
+}
+
+#pdf-canvas {
+   display: block;
+}
+
+.bubble {
+   position: absolute;
+   border: 2px solid red;
+   border-radius: 50%;
+   text-align: center;
+   line-height: 1;
+   font-weight: bold;
+   cursor: pointer;
+   user-select: none;
+}
+
+#controls {
+   margin-top: 10px;
+}

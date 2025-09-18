@@ -1,0 +1,21 @@
+﻿@page "/"
+@inject IJSRuntime JS
+
+<div id="controls">
+   <button id="import-btn">Import PDF</button>
+   <button id="export-btn">Export PDF</button>
+   <button id="line-tool">Line Tool</button>
+   <button id="bubble-tool">Bubble Tool</button>
+   Size: <input type="number" id="bubble-size" value="40" style="width:50px;">
+   Color: <input type="color" id="bubble-color" value="#e74c3c">
+</div>
+
+<div id="pdf-container">
+   <canvas id="pdf-canvas"></canvas>
+</div>
+
+<input type="file" id="file-input" style="display:none" accept="application/pdf">
+
+@code {
+
+}
